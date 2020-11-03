@@ -1,0 +1,46 @@
+nav {
+  display: inline-block;
+  background-color: #bada55;
+  border: 2px solid orange;
+  padding: 15px;
+  margin: 15px;
+  height: 200px;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+#site-heading {
+  display: inline-block;
+  color: red;
+}
+
+/*This is overwritten because it is less specific than the above id selector*/
+h1 {
+  color: green;
+}
+
+.nav-item {
+  display: inline-block;
+  color: blue;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.site-image {
+  width: 100px;
+  margin: 10px;
+}
+
+#main-image {
+  float: left;
+}
+
+#second-image {
+  float: right;
+}
+
+.red-box {
+  height: 100px;
+  width: 100px;
+  background: red;
+}
